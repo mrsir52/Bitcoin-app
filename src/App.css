@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  ffont-family: 'Quattrocento Sans', sans-serif;
+  letter-spacing: 4px;
+  font-weight: lighter;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: black;
+  height: 150px;
+  padding: 5px;
+  color: darkorange;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1{
+
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+#courses{
+  list-style: none;
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+  /*background-color: #fff;*/
+}
+
+h2 {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+#courses p{
+  display: block;
+  padding: 20px 20px;
+  background-color: #fff;
+  color: lightslategrey;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+
+  transition: 0.3s;
+}
+
+#courses p b{
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  color: #000;
+  text-align: right;
+}
+
+#courses p:hover{
+  background-color:dodgerblue;
+  color:gray;
+}
+
+#courses p.active{
+  color:#fff;
+  background-color:#EF6C00;
+}
+
+#courses p.active b{
+  color: black;
+}
+
+
+#total{
+  background: white !important;
+  cursor: default !important;
+  padding-top: 10px !important;
+  color: black;
+}
+
+.p-font {
+  color: black;
+  background-color: green;
+
+}
+.icon {
+  margin-top: 15px;
+  font-size: 60px;
+  color: darkorange;
+}
+
+.blink {
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
